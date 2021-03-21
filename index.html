@@ -3,19 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio - Guilherme Ribeiro</title>
+  <style>
+    body {
+      background-color: snow;
+    }
+
+    #menuContainer {
+      background-color: rgb(231, 230, 235);
+      padding: 20px;
+    }
+
+    h1, h2, h3 {
+      text-align: center;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+    
+    #aboutMeContainer {
+      padding-top: 30px;
+      text-align: center;
+    }
+
+    #photo {
+      border-radius: 15px;
+      width: 500px;
+    }
+
+    #paragraphAboutMe {
+      background-color: rgb(231, 230, 235);
+      margin: 35px auto;
+      padding: 20px;
+      width: 65%;
+    }
+    
+    #skillsContainer {
+      padding-left: 20px;
+    }
+    
+    #interestsContainer {
+      background-color: rgb(231, 230, 235);
+      padding: 20px;
+      text-align: center;
+    }
+    
+  </style>
 </head>
 <body>
-  <ul>
-    <li><a href="#sobre">Sobre mim</a></li>
-    <li><a href="#habilidades">Habilidades</a></li>
-    <li><a href="#interesses">Interesses</a></li>
-  </ul>
-  <h1><a href="#foto">Guilherme da Silva Ribeiro</a></h1>
-  <img id="foto" src="./IMG_20210106_122508335.jpg" alt="foto de Guilherme">
-  <p id="sobre"><em>Engenheiro de Controle e Automação</em> e amante das tecnologias, busco novo caminho como <b>desenvolvedor de software</b> para mergulhar ainda mais na área de programação, a qual me apaixonei desde a época de faculdade.</p>
-  <ul id="habilidades">
-    <li>Resiliência</li>
-  </ul>
-  <h4 id="interesses"><a href="https://www.youtube.com/">YouTube.com</a></h4>
+  <div id="menuContainer">
+    <h1>PORTFOLIO PROFISSIONAL</h1>
+    <ul>
+      <li><a href="#aboutMeContainer">Sobre mim</a></li>
+      <li><a href="#skillsContainer">Habilidades</a></li>
+      <li><a href="#interestsContainer">Interesses</a></li>
+    </ul>
+  </div>
+  <div id="aboutMeContainer">
+    <img id="photo" src="./IMG_20210106_122508335.jpg" alt="foto de Guilherme">
+    <h2><a href="#photo">Guilherme da Silva Ribeiro</a></h2>
+    <p id="paragraphAboutMe">Brasileiro, criado e atualmente morando em Belo Horizonte-MG, <em>engenheiro de Controle e Automação</em> e amante das tecnologias, busco novo caminho como <strong>desenvolvedor de software</strong> para mergulhar ainda mais na área de programação, a qual me apaixonei desde a época de faculdade.</p>
+  </div>
+  <div id="skillsContainer">
+    <h3>Habilidades</h3>
+    <ul id="skills">
+      <li>Empatia</li>
+      <li>Resiliência</li>
+      <li>Escuta ativa</li>
+      <li>Colaboração</li>
+      <li>Senso de time</li>
+      <li>Unix</li>
+      <li>Git / GitHub</li>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
+  </div>
+  <div id="interestsContainer">
+    <h3>Meus Interesses</h3>
+    <h4><a href="https://www.youtube.com/">YouTube</a></h4>
+    <h4><a href="https://engenhariae.com.br/">Engenharia é</a></h4>
+    <h4><a href="https://www.cifraclub.com.br/">Cifra club</a></h4>
+  </div>
 </body>
 </html>
