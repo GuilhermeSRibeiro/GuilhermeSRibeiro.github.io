@@ -3,4 +3,4 @@
 # diretório/ //ignora um diretório inteiro e todos os seus arquivos internos.
 # DICA: toptal.com/developers/gitignore.
 
-images/
+imagens/
